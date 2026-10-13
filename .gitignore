@@ -1,0 +1,29 @@
+# Build outputs and downloaded local tools
+/dist*/
+/BrowserAssistScanner-portable.zip
+/.local-tools/
+*.exe
+*.dll
+*.pdb
+
+# Local scans, UI captures, fixtures, and user data
+/test-artifacts/
+/test-fixtures/
+/ui-preview*
+/*scan*.json
+/可删除文件清单.txt
+/thumbnail-probe/
+*.userData
+*.var
+*.fav
+*.hide
+settings.json
+.env
+.env.*
+*.log
+
+# Editor and OS files
+/.vs/
+/.idea/
+Thumbs.db
+Desktop.ini
